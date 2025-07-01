@@ -1,0 +1,19 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left Phone -->
+  <rect x="50" y="50" width="150" height="300" rx="20" fill="#121212" stroke="#1AC0FF" stroke-width="2"/>
+  <rect x="60" y="70" width="130" height="240" rx="10" fill="#0C0C0C"/>
+  <text x="125" y="160" font-family="Arial" font-size="14" fill="#1AC0FF" text-anchor="middle">Sportiva</text>
+  <text x="125" y="190" font-family="Arial" font-size="12" fill="#A8FF5F" text-anchor="middle">Screen 1</text>
+
+  <!-- Middle Phone -->
+  <rect x="225" y="25" width="150" height="300" rx="20" fill="#121212" stroke="#1AC0FF" stroke-width="2"/>
+  <rect x="235" y="45" width="130" height="240" rx="10" fill="#0C0C0C"/>
+  <text x="300" y="135" font-family="Arial" font-size="14" fill="#1AC0FF" text-anchor="middle">Sportiva</text>
+  <text x="300" y="165" font-family="Arial" font-size="12" fill="#A8FF5F" text-anchor="middle">Screen 2</text>
+
+  <!-- Right Phone -->
+  <rect x="400" y="50" width="150" height="300" rx="20" fill="#121212" stroke="#1AC0FF" stroke-width="2"/>
+  <rect x="410" y="70" width="130" height="240" rx="10" fill="#0C0C0C"/>
+  <text x="475" y="160" font-family="Arial" font-size="14" fill="#1AC0FF" text-anchor="middle">Sportiva</text>
+  <text x="475" y="190" font-family="Arial" font-size="12" fill="#A8FF5F" text-anchor="middle">Screen 3</text>
+</svg>

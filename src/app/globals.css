@@ -1,26 +1,61 @@
 @import "tailwindcss";
+@config "../../tailwind.config.js";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand Colors */
+  --color-blue-electric: 26 192 255; /* #1AC0FF */
+  --color-green-lime: 168 255 95;   /* #A8FF5F */
+  --color-white: 255 255 255;       /* #FFFFFF */
+  --color-dark: 12 12 12;           /* #0C0C0C */
+  --color-dark-alt: 18 18 18;       /* #121212 */
+  
+  /* Font Families */
+  --font-outfit: 'Outfit', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-urbanist: 'Urbanist', sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-dark text-white font-inter;
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-outfit font-bold;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .btn-primary {
+    @apply bg-blue-electric hover:bg-blue-electric/90 text-white py-3 px-8 rounded-lg font-medium transition-all duration-300 inline-block;
+  }
+
+  .btn-secondary {
+    @apply bg-green-lime hover:bg-green-lime/90 text-dark py-3 px-8 rounded-lg font-medium transition-all duration-300 inline-block;
+  }
+
+  .section {
+    @apply py-16 md:py-24;
+  }
+
+  .container {
+    @apply px-4 mx-auto max-w-7xl;
+  }
+
+  .card {
+    @apply bg-dark-alt rounded-xl p-6 border border-white/10;
+  }
+
+  .glow {
+    text-shadow: 0 0 15px rgb(var(--color-blue-electric));
+  }
+
+  .glow-green {
+    text-shadow: 0 0 15px rgb(var(--color-green-lime));
+  }
 }

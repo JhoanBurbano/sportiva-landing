@@ -1,0 +1,33 @@
+<svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Step 1 -->
+  <rect x="50" y="50" width="120" height="100" rx="10" fill="#121212" stroke="#1AC0FF" stroke-width="2"/>
+  <text x="110" y="80" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">Step 1</text>
+  <text x="110" y="110" font-family="Arial" font-size="12" fill="#A8FF5F" text-anchor="middle">Register</text>
+  
+  <!-- Arrow 1 -->
+  <path d="M170 100L230 100" stroke="#1AC0FF" stroke-width="2"/>
+  <path d="M225 95L230 100L225 105" stroke="#1AC0FF" stroke-width="2"/>
+  
+  <!-- Step 2 -->
+  <rect x="230" y="50" width="120" height="100" rx="10" fill="#121212" stroke="#1AC0FF" stroke-width="2"/>
+  <text x="290" y="80" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">Step 2</text>
+  <text x="290" y="110" font-family="Arial" font-size="12" fill="#A8FF5F" text-anchor="middle">Find Matches</text>
+  
+  <!-- Arrow 2 -->
+  <path d="M350 100L410 100" stroke="#1AC0FF" stroke-width="2"/>
+  <path d="M405 95L410 100L405 105" stroke="#1AC0FF" stroke-width="2"/>
+  
+  <!-- Step 3 -->
+  <rect x="410" y="50" width="120" height="100" rx="10" fill="#121212" stroke="#1AC0FF" stroke-width="2"/>
+  <text x="470" y="80" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">Step 3</text>
+  <text x="470" y="110" font-family="Arial" font-size="12" fill="#A8FF5F" text-anchor="middle">Join Games</text>
+  
+  <!-- Arrow 3 -->
+  <path d="M530 100L590 100" stroke="#1AC0FF" stroke-width="2"/>
+  <path d="M585 95L590 100L585 105" stroke="#1AC0FF" stroke-width="2"/>
+  
+  <!-- Step 4 -->
+  <rect x="590" y="50" width="120" height="100" rx="10" fill="#121212" stroke="#1AC0FF" stroke-width="2"/>
+  <text x="650" y="80" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">Step 4</text>
+  <text x="650" y="110" font-family="Arial" font-size="12" fill="#A8FF5F" text-anchor="middle">Track Progress</text>
+</svg>
